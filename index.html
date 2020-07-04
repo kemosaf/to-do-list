@@ -1,0 +1,110 @@
+<style>
+        body {
+	background: #003cff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+
+#enter {
+	border: none;
+	padding: 13px 19px;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: #000000;
+	
+}
+
+
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #000000;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #000000;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.delete {
+	display: none;
+}
+</style>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>To Do List</h1>
+				<div>
+					
+			</div>
+		</div>
+
+		<div class="row">
+			
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="Add a task..." maxlength="27">
+				<button id="enter"><i class="fas fa-pencil-alt"></i>ADD TASK</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
